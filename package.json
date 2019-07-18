@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "PORT=4000 node ./bin/www",
+    "start": "node ./bin/www",
     "dev": "PORT=4000 env=development nodemon ./bin/www"
   },
   "dependencies": {
